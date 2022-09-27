@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "remote.SSH.remotePlatform": {
+        "159.223.135.30": "linux"
+    },
+    "git.ignoreLegacyWarning": true,
+    "git.useEditorAsCommitInput": false
+}
