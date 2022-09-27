@@ -1,0 +1,15 @@
+[2022-09-25 19:36:01.279] [exthost] [info] Extension host with pid 1653 started
+[2022-09-25 19:36:01.298] [exthost] [error] Error: EEXIST: file already exists, open '/root/.vscode-server/data/User/workspaceStorage/e97aa1ac7cb2a0bf95ed5220ee3cb280/vscode.lock'
+[2022-09-25 19:36:01.326] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/e97aa1ac7cb2a0bf95ed5220ee3cb280/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2022-09-25 19:36:01.335] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/e97aa1ac7cb2a0bf95ed5220ee3cb280/vscode.lock': The pid 24331 appears to be gone.
+[2022-09-25 19:36:01.335] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/e97aa1ac7cb2a0bf95ed5220ee3cb280/vscode.lock': Deleting a stale lock.
+[2022-09-25 19:36:01.421] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-09-25 19:36:01.600] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-09-25 19:36:01.606] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-09-25 19:36:01.613] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-09-25 19:36:01.640] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/e97aa1ac7cb2a0bf95ed5220ee3cb280/vscode.lock': Lock acquired.
+[2022-09-25 19:36:02.374] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-09-25 19:36:03.043] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-09-25 19:36:03.675] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-09-25 19:36:03.677] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/e97aa1ac7cb2a0bf95ed5220ee3cb280/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-09-25 19:36:03.691] [exthost] [info] Extension host with pid 1653 exiting with code 0
