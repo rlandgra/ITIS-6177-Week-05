@@ -88,3 +88,43 @@ node server.js
 cd server
 node server.js
 forever start server.js
+forever restart 0
+git remote add origin https://github.com/rlandgra/ITIS-6177-Week-05.git
+git remote -v
+git config --global user.name "Ross Landgraf"
+git config --global user.email "rlandgra@uncc.edu"
+free -h
+forever start server.js
+cd server
+forever start server.js
+cd..
+cd ..
+forever restart 0
+gitlog
+git log
+git remote -v
+git push
+git config --global push.default simple
+git push
+git push --set-upstream origin master
+forever restart 0
+forever stopall
+cd server
+node server.js
+forever start server.js
+forever restart 0
+forever stopall
+node server.js
+cd server
+node server.js
+forever start server.js
+cd server
+forever restart 0
+forever stopall
+forever start server.js
+forever restart 0
+cd server
+forever restart 0
+forever stopall
+forever start server.js
+forever restart 0

@@ -224,28 +224,7 @@ app.get('/agents', (req, res) => {
  *        required: true
  *        schema:
  *          type: string
- *      - in: body
  *        name: AGENT_NAME
- *        required: true
- *        schema:
- *          type: string
- *      - in: body
- *        name: WORKING_AREA
- *        required: true
- *        schema:
- *          type: string
- *      - in: body
- *        name: COMMISSION
- *        required: true
- *        schema:
- *          type: string
- *      - in: body
- *        name: PHONE_NO
- *        required: true
- *        schema:
- *          type: string
- *      - in: body
- *        name: COUNTRY
  *        required: true
  *        schema:
  *          type: string
@@ -253,6 +232,7 @@ app.get('/agents', (req, res) => {
  *    requestBody:
  *      required: true
  *      content:
+ *        application/json:
  *          schema:
  *            type: object
  *            properties:

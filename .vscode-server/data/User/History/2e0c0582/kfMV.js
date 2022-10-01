@@ -212,61 +212,6 @@ app.get('/agents', (req, res) => {
 
 
 //---------------------------------------------------------------------------POST REQUESTS:---------------------------------------------------------------------------
-
-/**
- * @swagger
- * /agent:
- *  post:  
- *    description: Add an agent
- *    parameters:
- *      - in: body
- *        name: AGENT_CODE
- *        required: true
- *        schema:
- *          type: string
- *      - in: body
- *        name: AGENT_NAME
- *        required: true
- *        schema:
- *          type: string
- *      - in: body
- *        name: WORKING_AREA
- *        required: true
- *        schema:
- *          type: string
- *      - in: body
- *        name: COMMISSION
- *        required: true
- *        schema:
- *          type: string
- *      - in: body
- *        name: PHONE_NO
- *        required: true
- *        schema:
- *          type: string
- *      - in: body
- *        name: COUNTRY
- *        required: true
- *        schema:
- *          type: string
- * 
- *    requestBody:
- *      required: true
- *      content:
- *          schema:
- *            type: object
- *            properties:
- *              AGENT_CODE:          
- *                type: string
- * 
- *            required:
- *              - AGENT_CODE
- *    responses:
- *      201:
- *        description: Agent created
- */
-
-
 app.post('/agent', (req, res) => {
 	pool.getConnection()
 		.then(conn => {
@@ -292,17 +237,14 @@ app.patch('/agent', (req, res) => {
 			let q = "UPDATE agents SET ";
 			let params = []
 			for (let p in req.query) {
-				if (p.toUpperCase() == "AGENT_CODE") {continue;} 
-				else if (!fields.includes(p)) { //loops through inputed parameters
-					// TODO: ADD ERROR THROW 
+				if (!fields.includes(p)) {
+					// THROW ERROR
 				}
 				const val = p.toUpperCase();
-				q += "`" + val + "`=?, "
+				q += "`" + val + "`=?"
 				params.push(req.query[p]);
 			}
-			q = q.replace(/,\s*$/, ""); //removes trailing comma using regex
-			params.push(req.query.agent_code);
-			q += "WHERE `AGENT_CODE`=?"
+			params.push(req.params.agent_code);
 			conn.query(q, params)
 			.then((rows) => {
 				if (rows && rows.affectedRows > 0){

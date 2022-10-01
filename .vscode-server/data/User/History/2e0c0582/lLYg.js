@@ -216,43 +216,18 @@ app.get('/agents', (req, res) => {
 /**
  * @swagger
  * /agent:
- *  post:  
- *    description: Add an agent
- *    parameters:
+ *  post:
+ *  parameters:
  *      - in: body
  *        name: AGENT_CODE
  *        required: true
  *        schema:
- *          type: string
- *      - in: body
- *        name: AGENT_NAME
- *        required: true
- *        schema:
- *          type: string
- *      - in: body
- *        name: WORKING_AREA
- *        required: true
- *        schema:
- *          type: string
- *      - in: body
- *        name: COMMISSION
- *        required: true
- *        schema:
- *          type: string
- *      - in: body
- *        name: PHONE_NO
- *        required: true
- *        schema:
- *          type: string
- *      - in: body
- *        name: COUNTRY
- *        required: true
- *        schema:
- *          type: string
- * 
+ *          type: string  
+ *    description: Add an agent
  *    requestBody:
  *      required: true
  *      content:
+ *        application/json:
  *          schema:
  *            type: object
  *            properties:
@@ -261,9 +236,6 @@ app.get('/agents', (req, res) => {
  * 
  *            required:
  *              - AGENT_CODE
- *    responses:
- *      201:
- *        description: Agent created
  */
 
 

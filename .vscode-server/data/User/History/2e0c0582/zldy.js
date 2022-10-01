@@ -220,32 +220,7 @@ app.get('/agents', (req, res) => {
  *    description: Add an agent
  *    parameters:
  *      - in: body
- *        name: AGENT_CODE
- *        required: true
- *        schema:
- *          type: string
- *      - in: body
- *        name: AGENT_NAME
- *        required: true
- *        schema:
- *          type: string
- *      - in: body
- *        name: WORKING_AREA
- *        required: true
- *        schema:
- *          type: string
- *      - in: body
- *        name: COMMISSION
- *        required: true
- *        schema:
- *          type: string
- *      - in: body
- *        name: PHONE_NO
- *        required: true
- *        schema:
- *          type: string
- *      - in: body
- *        name: COUNTRY
+ *        name: AGENT_CODE, AGENT_NAME
  *        required: true
  *        schema:
  *          type: string
@@ -253,6 +228,7 @@ app.get('/agents', (req, res) => {
  *    requestBody:
  *      required: true
  *      content:
+ *        application/json:
  *          schema:
  *            type: object
  *            properties:

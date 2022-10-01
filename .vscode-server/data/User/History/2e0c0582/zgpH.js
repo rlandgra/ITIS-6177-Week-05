@@ -249,10 +249,8 @@ app.get('/agents', (req, res) => {
  *        required: true
  *        schema:
  *          type: string
- * 
  *    requestBody:
  *      required: true
- *      content:
  *          schema:
  *            type: object
  *            properties:

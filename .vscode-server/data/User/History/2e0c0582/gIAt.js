@@ -212,61 +212,6 @@ app.get('/agents', (req, res) => {
 
 
 //---------------------------------------------------------------------------POST REQUESTS:---------------------------------------------------------------------------
-
-/**
- * @swagger
- * /agent:
- *  post:  
- *    description: Add an agent
- *    parameters:
- *      - in: body
- *        name: AGENT_CODE
- *        required: true
- *        schema:
- *          type: string
- *      - in: body
- *        name: AGENT_NAME
- *        required: true
- *        schema:
- *          type: string
- *      - in: body
- *        name: WORKING_AREA
- *        required: true
- *        schema:
- *          type: string
- *      - in: body
- *        name: COMMISSION
- *        required: true
- *        schema:
- *          type: string
- *      - in: body
- *        name: PHONE_NO
- *        required: true
- *        schema:
- *          type: string
- *      - in: body
- *        name: COUNTRY
- *        required: true
- *        schema:
- *          type: string
- * 
- *    requestBody:
- *      required: true
- *      content:
- *          schema:
- *            type: object
- *            properties:
- *              AGENT_CODE:          
- *                type: string
- * 
- *            required:
- *              - AGENT_CODE
- *    responses:
- *      201:
- *        description: Agent created
- */
-
-
 app.post('/agent', (req, res) => {
 	pool.getConnection()
 		.then(conn => {
