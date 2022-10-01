@@ -219,37 +219,36 @@ app.get('/agents', (req, res) => {
  *  post:  
  *    description: Add an agent
  *    parameters:
- *      - in: body
+ *      - in: query
  *        name: AGENT_CODE
  *        required: true
  *        schema:
  *          type: string
- *      - in: body
+ *      - in: query
  *        name: AGENT_NAME
  *        required: true
  *        schema:
  *          type: string
- *      - in: body
+ *      - in: query
  *        name: WORKING_AREA
  *        required: true
  *        schema:
  *          type: string
- *      - in: body
+ *      - in: query
  *        name: COMMISSION
  *        required: true
  *        schema:
  *          type: string
- *      - in: body
+ *      - in: query
  *        name: PHONE_NO
  *        required: true
  *        schema:
  *          type: string
- *      - in: body
+ *      - in: query
  *        name: COUNTRY
  *        required: true
  *        schema:
  *          type: string
- * 
  *    requestBody:
  *      required: true
  *      content:
@@ -261,6 +260,7 @@ app.get('/agents', (req, res) => {
  * 
  *            required:
  *              - AGENT_CODE
+ *    produces: ["application/json"]
  *    responses:
  *      201:
  *        description: Agent created

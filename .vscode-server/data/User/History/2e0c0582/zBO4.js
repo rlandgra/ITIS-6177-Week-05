@@ -212,7 +212,62 @@ app.get('/agents', (req, res) => {
 
 
 //---------------------------------------------------------------------------POST REQUESTS:---------------------------------------------------------------------------
-app.post('/newagent', (req, res) => {
+
+/**
+ * @swagger
+ * /agent:
+ *  post:  
+ *    description: Add an agent
+ *    parameters:
+ *      - in: query
+ *        name: AGENT_CODE
+ *        required: true
+ *        schema:
+ *          type: string
+ *      - in: query
+ *        name: AGENT_NAME
+ *        required: true
+ *        schema:
+ *          type: string
+ *      - in: query
+ *        name: WORKING_AREA
+ *        required: true
+ *        schema:
+ *          type: string
+ *      - in: query
+ *        name: COMMISSION
+ *        required: true
+ *        schema:
+ *          type: string
+ *      - in: query
+ *        name: PHONE_NO
+ *        required: true
+ *        schema:
+ *          type: string
+ *      - in: query
+ *        name: COUNTRY
+ *        required: true
+ *        schema:
+ *          type: string
+ *    requestBody:
+ *      required: true
+ *      content:
+ *          schema:
+ *            type: object
+ *            properties:
+ *              AGENT_CODE:          
+ *                type: string
+ * 
+ *            required:
+ *              - AGENT_CODE
+ *    produces: ["application/json"]
+ *    responses:
+ *      201:
+ *        description: Agent created
+ */
+
+
+app.post('/agent', (req, res) => {
 	pool.getConnection()
 		.then(conn => {
 			conn.query("INSERT INTO agents (`AGENT_CODE`, `AGENT_NAME`, `WORKING_AREA`, `COMMISSION`, `PHONE_NO`, `COUNTRY`) VALUES (?,?,?,?,?,?)", [req.query.agent_code, req.query.agent_name, req.query.working_area, req.query.commission, req.query.phonenumber, req.query.country])
@@ -230,13 +285,70 @@ app.post('/newagent', (req, res) => {
 
 
 //---------------------------------------------------------------------------PATCH REQUESTS:---------------------------------------------------------------------------
+const fields = [`AGENT_NAME`, `WORKING_AREA`, `COMMISSION`, `PHONE_NO`, `COUNTRY`];
+app.patch('/agent', (req, res) => {
+	pool.getConnection()
+		.then(conn => {
+			let q = "UPDATE agents SET ";
+			let params = []
+			for (let p in req.query) {
+				if (p.toUpperCase() == "AGENT_CODE") {continue;} 
+				else if (!fields.includes(p)) { //loops through inputed parameters
+					// TODO: ADD ERROR THROW 
+				}
+				const val = p.toUpperCase();
+				q += "`" + val + "`=?, "
+				params.push(req.query[p]);
+			}
+			q = q.replace(/,\s*$/, ""); //removes trailing comma using regex
+			params.push(req.query.agent_code);
+			q += "WHERE `AGENT_CODE`=?"
+			conn.query(q, params)
+			.then((rows) => {
+				if (rows && rows.affectedRows > 0){
+				res.send('Agent has been updated');
+			} 
+			else {
+				res.send('Agent has NOT been updated. Agent not found');
+			}
 
+			})
+			.catch(err => {
+			  res.send(err); 
+			  conn.end();
+			})
+			
+		}).catch(err => {
+		});
+	})
+
+	
 
 //---------------------------------------------------------------------------PUT REQUESTS:---------------------------------------------------------------------------
+app.put('/agent', (req, res) => {
+	pool.getConnection()
+		.then(conn => {
+			conn.query("UPDATE agents SET `AGENT_NAME`=?, `WORKING_AREA`=?, `COMMISSION`=?, `PHONE_NO`=?, `COUNTRY`=? WHERE `AGENT_CODE` =?", [req.query.agent_name, req.query.working_area, req.query.commission, req.query.phonenumber, req.query.country, req.query.agent_code])
+			.then((rows) => {
+				if (rows && rows.affectedRows > 0){
+				res.send('Agent has been updated');
+			} 
+			else {
+				res.send('Agent has NOT been updated. Agent not found');
+			}
 
+			})
+			.catch(err => {
+			  res.send(err); 
+			  conn.end();
+			})
+			
+		}).catch(err => {
+		});
+	})
 
 //---------------------------------------------------------------------------DELETE REQUESTS:---------------------------------------------------------------------------
- app.delete('/deleteagent', (req, res) => {
+ app.delete('/agent', (req, res) => {
 	pool.getConnection()
 		.then(conn => {
 			console.log('1');
