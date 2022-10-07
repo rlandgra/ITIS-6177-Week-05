@@ -1,5 +1,4 @@
 //Sanitation is done in APIs using "?" which are prepared statements and prevent unwanted code/injection/XSS
-
 const express = require("express");
 const app = express();
 const port = 3000;
@@ -8,6 +7,7 @@ const swaggerJsdoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
 
 var cors = require("cors");
+var aws = require("aws-sdk");
 
 const options = {
   swaggerDefinition: {
@@ -466,6 +466,37 @@ app.delete("/agent", (req, res) => {
         });
     })
     .catch((err) => {});
+});
+
+//---------------------------------------------------------------------------SAY API:---------------------------------------------------------------------------
+/**
+ * @swagger
+ * /say:
+ *    get:
+ *      description: allows a user to use a function that says something
+ *      produces:
+ *          - application/json
+ *      responses:
+ *          200:
+ *              description: Returns a function output with what the user wanted to say
+ */
+app.get("/say", (req, res) => {
+  //utilized AWS's github document: https://github.com/awsdocs/aws-doc-sdk-examples/blob/main/javascriptv3/example_code/lambda/actions/invoke.js
+  aws.config.update({
+    accessKeyId: "AKIAQKOBIBV5C4RUC773",
+    secretAccessKey: "BvJur2/lshat5/u5d8fXrRlouUN16FFL/i3X5EQO",
+    region: "us-east-1",
+  });
+  var lambda = new aws.Lambda();
+  var params = {
+    FunctionName: "say",
+    Payload: JSON.stringify({ keyword: req.query.keyword }),
+  };
+  lambda.invoke(params, function (err, data) {
+    if (err) console.log(err, err.stack); // an error occurred
+    else console.log(data); // successful response
+    res.send(data.Payload);
+  });
 });
 
 app.listen(port, () => {
