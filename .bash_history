@@ -128,3 +128,48 @@ forever restart 0
 forever stopall
 forever start server.js
 forever restart 0
+cd server
+forever restart 0
+forever stopall
+node server.js
+node server.js\
+node server.js
+forever start server.js
+forever stopall
+forever start server.js
+forever stopall
+node server.js
+git remote -v
+git branch
+node server.js
+forever start server.js
+npm install body-parser
+forever restart 0
+forever stopall
+node server.js
+forever start server.js
+forever stopall
+forever start server.js
+forever restart 0
+forever stopall
+node server.js
+forever start server.js
+cd server
+forever start server.js
+npm uninstall body-parser
+forever restart 0
+cd server
+forever restart 0
+forever stopall
+node server.js
+forever start server.js
+cd server
+forever restart 0
+cd server
+forever restart 0
+forever stopall
+node server.js
+forever restart 0
+forever start server.js
+cd server
+forever restart 0
