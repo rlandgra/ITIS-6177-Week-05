@@ -9,6 +9,8 @@ const swaggerUi = require("swagger-ui-express");
 var cors = require("cors");
 var aws = require("aws-sdk");
 
+const {accessKeyId,secretAccessKey} = require("./config");
+
 const options = {
   swaggerDefinition: {
     info: {
@@ -483,8 +485,8 @@ app.delete("/agent", (req, res) => {
 app.get("/say", (req, res) => {
   //utilized AWS's github document: https://github.com/awsdocs/aws-doc-sdk-examples/blob/main/javascriptv3/example_code/lambda/actions/invoke.js
   aws.config.update({
-    accessKeyId: "AKIAQKOBIBV5C4RUC773",
-    secretAccessKey: "BvJur2/lshat5/u5d8fXrRlouUN16FFL/i3X5EQO",
+    accessKeyId: accessKeyId,
+    secretAccessKey: secretAccessKey,
     region: "us-east-1",
   });
   var lambda = new aws.Lambda();
