@@ -501,6 +501,11 @@ app.get("/say", (req, res) => {
   });
 });
 
+//---------------------------------------------------------------------------AUTO GENERATED APIs USING wrannaman Generator-----------------------------------------------------------------
+
+
+
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
