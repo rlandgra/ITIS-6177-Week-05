@@ -1,0 +1,14 @@
+[2022-11-09 07:12:09.103] [exthost] [info] Extension host with pid 21090 started
+[2022-11-09 07:12:09.145] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/e97aa1ac7cb2a0bf95ed5220ee3cb280/vscode.lock': Lock acquired.
+[2022-11-09 07:12:09.207] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-11-09 07:12:09.228] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-11-09 07:12:09.243] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-11-09 07:12:09.353] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-11-09 07:12:09.597] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-11-09 07:12:09.913] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-11-09 07:12:09.953] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-11-09 07:12:09.961] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onStartupFinished', root cause: esbenp.prettier-vscode
+[2022-11-09 07:12:10.018] [exthost] [info] Eager extensions activated
+[2022-11-09 07:12:10.582] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 365
+[2022-11-09 07:12:10.992] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 366
+[2022-11-09 07:12:11.067] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'

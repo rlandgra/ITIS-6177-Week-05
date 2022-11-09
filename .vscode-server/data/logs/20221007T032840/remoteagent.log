@@ -1,0 +1,15 @@
+[2022-10-07 03:28:40.935] [remoteagent] [info] Extension host agent started.
+[2022-10-07 03:28:41.504] [remoteagent] [info] [127.0.0.1][212d656d][ManagementConnection] New connection established.
+[2022-10-07 03:28:41.505] [remoteagent] [info] [127.0.0.1][1eab0302][ExtensionHostConnection] New connection established.
+[2022-10-07 03:28:41.521] [remoteagent] [info] [127.0.0.1][1eab0302][ExtensionHostConnection] <6625> Launched Extension Host Process.
+[2022-10-07 03:35:35.009] [remoteagent] [error] Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+[2022-10-07 03:35:35.264] [remoteagent] [error] Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+[2022-10-07 04:00:42.572] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-10-07 04:00:52.431] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-10-07 04:00:52.708] [remoteagent] [info] [127.0.0.1][1eab0302][ExtensionHostConnection] The client has reconnected.
+[2022-10-07 04:42:54.795] [remoteagent] [info] [127.0.0.1][212d656d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-10-07 04:42:54.924] [remoteagent] [info] [127.0.0.1][1eab0302][ExtensionHostConnection] <6625> Extension Host Process exited with code: 0, signal: null.
+[2022-10-07 04:42:54.925] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-10-07 04:47:54.926] [remoteagent] [info] Last EH closed, shutting down

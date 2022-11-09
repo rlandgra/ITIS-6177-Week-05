@@ -1,0 +1,5 @@
+[2022-11-09 07:43:11.940] [remoteagent] [info] Extension host agent started.
+[2022-11-09 07:43:12.447] [remoteagent] [info] [127.0.0.1][8405dc4d][ExtensionHostConnection] New connection established.
+[2022-11-09 07:43:12.448] [remoteagent] [info] [127.0.0.1][8a2e189c][ManagementConnection] New connection established.
+[2022-11-09 07:43:12.710] [remoteagent] [info] [127.0.0.1][8405dc4d][ExtensionHostConnection] <2238> Launched Extension Host Process.
+[2022-11-09 07:43:19.621] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /root)

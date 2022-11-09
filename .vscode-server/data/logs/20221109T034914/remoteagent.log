@@ -1,0 +1,25 @@
+[2022-11-09 03:49:14.611] [remoteagent] [info] Extension host agent started.
+[2022-11-09 03:49:15.155] [remoteagent] [info] [127.0.0.1][de1d1ce4][ManagementConnection] New connection established.
+[2022-11-09 03:49:15.203] [remoteagent] [info] [127.0.0.1][563e1798][ExtensionHostConnection] New connection established.
+[2022-11-09 03:49:15.466] [remoteagent] [info] [127.0.0.1][563e1798][ExtensionHostConnection] <15551> Launched Extension Host Process.
+[2022-11-09 03:49:20.059] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /root)
+[2022-11-09 07:11:59.700] [remoteagent] [info] [127.0.0.1][de1d1ce4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-11-09 07:12:00.033] [remoteagent] [info] [127.0.0.1][563e1798][ExtensionHostConnection] <15551> Extension Host Process exited with code: 0, signal: null.
+[2022-11-09 07:12:00.034] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-11-09 07:12:06.757] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-11-09 07:12:06.757] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-11-09 07:12:06.985] [remoteagent] [info] [127.0.0.1][60697c56][ManagementConnection] New connection established.
+[2022-11-09 07:12:07.038] [remoteagent] [info] [127.0.0.1][cff802fd][ExtensionHostConnection] New connection established.
+[2022-11-09 07:12:07.052] [remoteagent] [info] [127.0.0.1][cff802fd][ExtensionHostConnection] <21090> Launched Extension Host Process.
+[2022-11-09 07:12:13.520] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /root)
+[2022-11-09 07:17:06.758] [remoteagent] [info] New EH opened, aborting shutdown
+[2022-11-09 07:31:59.919] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-09 07:31:59.939] [remoteagent] [info] [127.0.0.1][cff802fd][ExtensionHostConnection] <21090> Extension Host Process exited with code: null, signal: SIGKILL.
+[2022-11-09 07:31:59.939] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-11-09 07:32:00.202] [remoteagent] [error] [127.0.0.1][cff802fd][ExtensionHostConnection] Unknown reconnection token (seen before).
+[2022-11-09 07:32:24.886] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-09 07:32:40.437] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-09 07:32:52.797] [remoteagent] [error] ptyHost terminated unexpectedly with code null
+[2022-11-09 07:32:58.792] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-09 07:32:59.041] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-11-09 07:32:59.041] [remoteagent] [info] Cancelling previous shutdown timeout

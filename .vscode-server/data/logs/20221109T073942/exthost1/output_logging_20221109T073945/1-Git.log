@@ -1,0 +1,25 @@
+[2022-11-09T07:39:45.792Z] Log level: Info
+[2022-11-09T07:39:45.804Z] [info] Validating found git in: git
+[2022-11-09T07:39:45.860Z] [info] Using git 1.8.3.1 from git
+[2022-11-09T07:39:45.985Z] > git rev-parse --show-toplevel [101ms]
+[2022-11-09T07:39:46.003Z] > git rev-parse --git-dir --git-common-dir [1ms]
+[2022-11-09T07:39:46.014Z] [info] Open repository: /root
+[2022-11-09T07:39:46.215Z] > git status -z -uall [188ms]
+[2022-11-09T07:39:46.227Z] > git symbolic-ref --short HEAD [2ms]
+[2022-11-09T07:39:46.244Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [9ms]
+[2022-11-09T07:39:46.261Z] > git rev-list --left-right --count master...origin/master [9ms]
+[2022-11-09T07:39:46.275Z] > git remote --verbose [1ms]
+[2022-11-09T07:39:46.275Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+[2022-11-09T07:39:46.328Z] > git config --get commit.template [1ms]
+[2022-11-09T07:39:46.363Z] > git status -z -uall [2ms]
+[2022-11-09T07:39:46.611Z] > git symbolic-ref --short HEAD [217ms]
+[2022-11-09T07:39:46.624Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [2ms]
+[2022-11-09T07:39:46.633Z] > git rev-list --left-right --count master...origin/master [2ms]
+[2022-11-09T07:39:46.669Z] > git remote --verbose [23ms]
+[2022-11-09T07:39:46.669Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [29ms]
+[2022-11-09T07:39:46.757Z] > git config --get commit.template [3ms]
+[2022-11-09T07:39:46.764Z] > git check-ignore -v -z --stdin [22ms]
+[2022-11-09T07:39:47.107Z] > git show --textconv :db.sql [12ms]
+[2022-11-09T07:39:47.108Z] > git ls-files --stage -- /root/db.sql [2ms]
+[2022-11-09T07:39:47.117Z] > git cat-file -s 32056239f7bcf08209d4bfd1fb91b6f202ee062b [2ms]
+[2022-11-09T07:39:52.207Z] > git check-ignore -v -z --stdin [4ms]

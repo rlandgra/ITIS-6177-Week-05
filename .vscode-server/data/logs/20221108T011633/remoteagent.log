@@ -1,0 +1,34 @@
+[2022-11-08 01:16:33.549] [remoteagent] [info] Extension host agent started.
+[2022-11-08 01:16:34.140] [remoteagent] [info] [127.0.0.1][4fc17e20][ExtensionHostConnection] New connection established.
+[2022-11-08 01:16:34.141] [remoteagent] [info] [127.0.0.1][db283ee2][ManagementConnection] New connection established.
+[2022-11-08 01:16:34.157] [remoteagent] [info] [127.0.0.1][4fc17e20][ExtensionHostConnection] <12846> Launched Extension Host Process.
+[2022-11-08 01:16:49.316] [remoteagent] [info] [127.0.0.1][db283ee2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-11-08 01:16:49.328] [remoteagent] [info] [127.0.0.1][4fc17e20][ExtensionHostConnection] <12846> Extension Host Process exited with code: 0, signal: null.
+[2022-11-08 01:16:49.329] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-11-08 01:16:52.533] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-11-08 01:16:52.533] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-11-08 01:16:52.696] [remoteagent] [info] [127.0.0.1][9e5e81bc][ManagementConnection] New connection established.
+[2022-11-08 01:16:52.792] [remoteagent] [info] [127.0.0.1][c0c6c382][ExtensionHostConnection] New connection established.
+[2022-11-08 01:16:52.808] [remoteagent] [info] [127.0.0.1][c0c6c382][ExtensionHostConnection] <12934> Launched Extension Host Process.
+[2022-11-08 01:21:52.533] [remoteagent] [info] New EH opened, aborting shutdown
+[2022-11-08 01:23:35.922] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: terminated by itself with code null, signal: SIGSEGV
+[2022-11-08 01:25:38.469] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-08 02:01:04.021] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-08 02:02:15.499] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-08 02:02:17.913] [remoteagent] [info] [127.0.0.1][c0c6c382][ExtensionHostConnection] The client has reconnected.
+[2022-11-08 02:08:05.730] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-08 02:13:08.369] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-08 02:15:10.937] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-08 02:34:21.175] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-08 02:41:48.736] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-08 02:42:10.032] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-08 02:44:08.418] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-08 02:45:33.460] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-08 02:45:44.913] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-08 02:46:11.875] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-08 02:48:23.575] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-08 02:48:39.643] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-08 02:51:18.725] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-08 02:52:04.107] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-08 02:52:08.531] [remoteagent] [info] [127.0.0.1][c0c6c382][ExtensionHostConnection] The client has reconnected.
+[2022-11-08 05:22:06.547] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds

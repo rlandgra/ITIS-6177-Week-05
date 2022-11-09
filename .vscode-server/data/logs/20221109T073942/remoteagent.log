@@ -1,0 +1,49 @@
+[2022-11-09 07:39:42.551] [remoteagent] [info] Extension host agent started.
+[2022-11-09 07:39:43.031] [remoteagent] [info] [127.0.0.1][04823eea][ManagementConnection] New connection established.
+[2022-11-09 07:39:43.119] [remoteagent] [info] [127.0.0.1][9208bd90][ExtensionHostConnection] New connection established.
+[2022-11-09 07:39:43.373] [remoteagent] [info] [127.0.0.1][9208bd90][ExtensionHostConnection] <2246> Launched Extension Host Process.
+[2022-11-09 07:39:49.267] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /root)
+[2022-11-09 07:40:36.058] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-09 07:40:36.066] [remoteagent] [info] [127.0.0.1][9208bd90][ExtensionHostConnection] <2246> Extension Host Process exited with code: null, signal: SIGKILL.
+[2022-11-09 07:40:36.066] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-11-09 07:40:51.579] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-09 07:40:55.987] [remoteagent] [error] ptyHost terminated unexpectedly with code null
+[2022-11-09 07:41:14.837] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-09 07:41:14.937] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-11-09 07:41:14.938] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-11-09 07:41:32.485] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:700:9)
+    at fork (node:child_process:166:10)
+    at I.get client [as client] (/root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:75:28327)
+    at I.getCachedChannel (/root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:75:29385)
+    at I.requestPromise (/root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:75:26859)
+    at Object.call (/root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:75:26566)
+    at Proxy.<anonymous> (/root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:75:8861)
+    at l._disposePtyHost (/root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:130:8481)
+    at l.restartPtyHost (/root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:130:8372)
+    at /root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:130:4931
+    at I.invoke (/root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:64:145)
+    at g.deliver (/root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:64:2269)
+    at y.fire (/root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:64:1847)
+    at ChildProcess.<anonymous> (/root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:75:29274)
+    at ChildProcess.emit (node:events:526:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12)
+[2022-11-09 07:41:32.761] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:700:9)
+    at fork (node:child_process:166:10)
+    at I.get client [as client] (/root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:75:28327)
+    at I.getCachedChannel (/root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:75:29385)
+    at Object.onFirstListenerAdd (/root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:75:27363)
+    at Proxy._event._event (/root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:64:974)
+    at l._startPtyHost (/root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:130:4642)
+    at l.restartPtyHost (/root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:130:8422)
+    at /root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:130:4931
+    at I.invoke (/root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:64:145)
+    at g.deliver (/root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:64:2269)
+    at y.fire (/root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:64:1847)
+    at ChildProcess.<anonymous> (/root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:75:29274)
+    at ChildProcess.emit (node:events:526:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12)
+[2022-11-09 07:41:43.158] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: terminated by itself with code null, signal: SIGKILL

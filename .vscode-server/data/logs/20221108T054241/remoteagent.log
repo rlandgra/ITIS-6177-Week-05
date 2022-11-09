@@ -1,0 +1,29 @@
+[2022-11-08 05:42:41.279] [remoteagent] [info] Extension host agent started.
+[2022-11-08 05:42:41.707] [remoteagent] [info] [127.0.0.1][ce7e69f4][ManagementConnection] New connection established.
+[2022-11-08 05:42:41.715] [remoteagent] [info] [127.0.0.1][796e79d3][ExtensionHostConnection] New connection established.
+[2022-11-08 05:42:41.741] [remoteagent] [info] [127.0.0.1][796e79d3][ExtensionHostConnection] <1907> Launched Extension Host Process.
+[2022-11-08 05:59:46.739] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-08 06:00:09.558] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-08 06:00:36.647] [remoteagent] [info] [127.0.0.1][796e79d3][ExtensionHostConnection] The client has reconnected.
+[2022-11-08 06:00:39.255] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-08 06:00:53.608] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-08 06:01:22.001] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-08 06:01:53.939] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-08 06:02:25.642] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-11-08 06:02:25.763] [remoteagent] [info] [127.0.0.1][796e79d3][ExtensionHostConnection] The client has reconnected.
+[2022-11-08 06:08:31.393] [remoteagent] [info] [127.0.0.1][ce7e69f4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-11-08 06:08:31.471] [remoteagent] [info] [127.0.0.1][796e79d3][ExtensionHostConnection] <1907> Extension Host Process exited with code: 0, signal: null.
+[2022-11-08 06:08:31.471] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-11-08 06:08:36.504] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:145:7922)
+    at process.emit (node:events:526:28)
+[2022-11-08 06:08:36.504] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:145:7922)
+    at process.emit (node:events:526:28)
+[2022-11-08 06:08:36.505] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:145:7922)
+    at process.emit (node:events:526:28)
+[2022-11-08 06:08:36.522] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/root/.vscode-server/bin/e7f30e38c5a4efafeec8ad52861eb772a9ee4dfb/out/vs/server/node/server.main.js:145:7922)
+    at process.emit (node:events:526:28)
+[2022-11-08 06:13:31.472] [remoteagent] [info] Last EH closed, shutting down

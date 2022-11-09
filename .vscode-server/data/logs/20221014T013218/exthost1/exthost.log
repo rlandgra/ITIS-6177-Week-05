@@ -1,0 +1,51 @@
+[2022-10-14 01:32:20.754] [exthost] [info] Extension host with pid 1827 started
+[2022-10-14 01:32:20.798] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/e97aa1ac7cb2a0bf95ed5220ee3cb280/vscode.lock': Lock acquired.
+[2022-10-14 01:32:20.960] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-10-14 01:32:21.025] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-10-14 01:32:21.069] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-10-14 01:32:21.310] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-10-14 01:32:22.093] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-10-14 01:32:22.622] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-14 01:32:22.737] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-14 01:32:22.761] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onStartupFinished', root cause: esbenp.prettier-vscode
+[2022-10-14 01:32:22.975] [exthost] [info] Eager extensions activated
+[2022-10-14 01:32:24.389] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:32:28.382] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Could not switch to '/root/.vscode-server/data/logs/20220923T031257/': No such file or directory\n","exitCode":128}
+[2022-10-14 01:33:57.229] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-10-14 01:33:57.229] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/e97aa1ac7cb2a0bf95ed5220ee3cb280/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-10-14 01:33:57.298] [exthost] [info] Extension host with pid 1827 exiting with code 0
